@@ -7,7 +7,7 @@ Simple LAMP environment inside Vagrant box. Based on official `ubuntu/xenial64` 
 - Ubuntu 16.04
 - Apache 2.4
 - MySQL 5.7
-- PHP 7.0
+- PHP 7.1
 - Node.js 8.x (with NPM)
 
 ### Additionally installed:
@@ -34,4 +34,4 @@ After setup is finished, go to http://192.168.33.10/ in your browser. You should
 
 `phpMyAdmin` is accessible at http://192.168.33.10/phpmyadmin/ Username is 'root', password - '12345678'
 
-*tested on Mac OS X 10.11.6 (El Capitan) with VirtualBox v5.2.8 and Vagrant 2.0.3
+*tested on Mac OS X 10.11.6 (El Capitan) with VirtualBox v5.2.12 and Vagrant 2.1.1
