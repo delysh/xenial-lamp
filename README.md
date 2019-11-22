@@ -17,6 +17,7 @@ Simple LAMP environment inside Vagrant box. Based on official `ubuntu/xenial64` 
 - phpMyAdmin
 - Git
 - Composer
+- Yarn
 
 ## How to set up:
 
@@ -34,4 +35,4 @@ After setup is finished, go to http://192.168.33.10/ in your browser. You should
 
 `phpMyAdmin` is accessible at http://192.168.33.10/phpmyadmin/ Username is 'root', password - '12345678'
 
-*tested on Mac OS X 10.11.6 (El Capitan) with VirtualBox v5.2.12 and Vagrant 2.1.1
+*tested on Mac OS X 10.12.6 (Sierra) with VirtualBox v6.0.14 and Vagrant 2.2.6
