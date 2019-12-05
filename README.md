@@ -8,7 +8,7 @@ Simple LAMP environment inside Vagrant box. Based on official `ubuntu/xenial64` 
 - Apache 2.4
 - MySQL 5.7
 - PHP 7.1
-- Node.js 8.x (with NPM)
+- Node.js 12.x (with NPM)
 
 ### Additionally installed:
 

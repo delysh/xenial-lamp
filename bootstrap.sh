@@ -82,7 +82,7 @@ sudo apt install -y git
 sudo apt install -y composer
 
 # install NodeJS and NPM
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 # install yarn
