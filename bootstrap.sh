@@ -36,14 +36,14 @@ sudo apt install -y apache2
 # removing all old php dependencies (not needed on fresh setup).
 #sudo apt-get remove -y php*
 
-# installing php7.1 and php modules
-sudo apt-get install -y php7.1 php7.1-cli php7.1-common libapache2-mod-php7.1 php7.1-fpm php7.1-curl php7.1-gd php7.1-bz2 php7.1-mcrypt php7.1-json php7.1-tidy php7.1-mbstring php-redis php-memcached php7.1-sqlite3 php7.1-xml
+# installing php7.3 and php modules
+sudo apt-get install -y php7.3 php7.3-cli php7.3-common libapache2-mod-php7.3 php7.3-fpm php7.3-curl php7.3-gd php7.3-bz2 php7.3-json php7.3-tidy php7.3-mbstring php-redis php-memcached php7.3-sqlite3 php7.3-xml php7.3-zip php7.3-readline php7.3-intl php7.3-bcmath php7.3-xmlrpc php7.3-recode php7.3-imagick php7.3-mysql
 
 # install mysql and give password to installer
 sudo debconf-set-selections <<< "mysql-server mysql-server/root_password password $PASSWORD"
 sudo debconf-set-selections <<< "mysql-server mysql-server/root_password_again password $PASSWORD"
+
 sudo apt install -y mysql-server
-sudo apt install -y php7.1-mysql
 
 # install phpmyadmin and give password(s) to installer
 # for simplicity I'm using the same password for mysql and phpmyadmin
