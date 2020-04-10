@@ -1,3 +1,7 @@
+##### *** ATTENTION! This project is no longer maintained. ***
+
+Please refer to https://github.com/delysh/ubuntu-lamp
+
 # Simple LAMP Vagrant box
 
 Simple LAMP environment inside Vagrant box. Based on official `ubuntu/xenial64` box.
